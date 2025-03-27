@@ -1,4 +1,3 @@
-**findroot**
 **findroot is a simple command-line tool that extracts root domains from a list of subdomains.**
 
 **Features**
