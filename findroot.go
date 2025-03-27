@@ -81,7 +81,7 @@ func extractRootDomains(tlds map[string]int) (map[string]struct{}, error) {
 }
 
 func main() {
-	tldFile := "/tld.txt"
+	tldFile := "tld.txt"
 	outputFile := flag.String("o", "root.txt", "File to save the extracted root domains")
 	flag.Parse()
 
